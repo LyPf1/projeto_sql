@@ -1,24 +1,24 @@
-# Carros Database (SQL)
+# Cars Database (SQL)
 
-Projeto simples de banco de dados relacional desenvolvido para fins acadêmicos,
-demonstrando a criação de tabelas, uso de chaves primárias e estrangeiras,
-e inserção de dados de exemplo.
+Simple relational database project developed for academic purposes,
+demonstrating table creation, use of primary and foreign keys,
+and insertion of sample data.
 
-## Tecnologias
+## Technologies
 - MySQL
 - SQL
 
-## Estrutura do Banco
-- **marcas**: armazena marcas de carros e país de origem
-- **inventario**: modelos de carros vinculados às marcas
-- **clientes**: clientes fictícios
+## Database Structure
+- **brands**: stores car brands and country of origin
+- **inventory**: car models linked to the brands
+- **customers**: fictitious customers
 
-## Como executar
-1. Execute o arquivo `schema.sql`
-2. Execute o arquivo `inserts.sql`
+## How to run
+1. Run the `schema.sql` file
+2. Run the `inserts.sql` file
 
-## Conceitos aplicados
-- Modelagem relacional
-- PRIMARY KEY e FOREIGN KEY
-- Normalização básica
-- Integridade referencial
+## Applied Concepts
+- Relational modeling
+- PRIMARY KEY and FOREIGN KEY
+- Basic normalization
+- Referential integrity
